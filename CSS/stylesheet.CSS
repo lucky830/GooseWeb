@@ -1,28 +1,59 @@
 /* The stylesheet.CSS file is loaded here */
 
+/* Logo top left corner */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    height: 60px; /* Adjust the height as needed */
+    margin-right: 0px; /* Adjust the margin as needed */
+}
+
 /* For the nav bar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    display: flex;
 }
 
 li {
-    float: left;
+    margin-left: 0px;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
+    position: relative;
 }
 
-/* change on hover*/
+
+
 li a:hover {
-    background-color: #111;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
+body {
+    background-color: #2B2A33;
+    color: white;
+}
+
+/* For the main section */
+
+main section {
+    text-align: center;
+}
