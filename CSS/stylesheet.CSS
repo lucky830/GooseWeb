@@ -19,7 +19,7 @@ nav .logo {
 }
 
 /* For the nav bar */
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,11 +27,11 @@ ul {
     display: flex;
 }
 
-li {
+nav ul li {
     margin-left: 0px;
 }
 
-li a {
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -42,7 +42,7 @@ li a {
 
 
 
-li a:hover {
+nav ul li a:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
@@ -57,3 +57,10 @@ body {
 main section {
     text-align: center;
 }
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+footer 
